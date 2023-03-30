@@ -1,10 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 function Profile() {
   return (
     <>
-    <Navbar/>
+    
     <div>
       <h3 className='userWelcome'>Welcome back, Milly Rock</h3>
       <p className='profIntro'>Below is a list of questions that you asked, click on Edit to update a question</p>

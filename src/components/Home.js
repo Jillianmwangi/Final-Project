@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Navbar from './Navbar'
 import Login from './Login'
 import Register from './Register'
 
@@ -16,7 +15,7 @@ function Home() {
 
   return (
     <>
-    <Navbar/>
+    
     <div className='homeContainer'>
       <div className='Main'>
         <h2 className='uliza'>ULIZA</h2>

@@ -125,12 +125,22 @@ body{
 }
 .questionDiv{
   display: flex;
+  flex-direction: column;
   padding: 20px;
   margin: 10px;
   justify-content: space-between;
   background-color: #85B6E2;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  
+}
+.quizDisplay{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #343090;
+  margin: 8px;
+  padding: 10px;
 }
 .answerBtn{
   background: #44C2FD;
@@ -158,8 +168,16 @@ body{
 .ansTxt{
   width: 550px;
 }
+.navLinkz{
+  text-decoration: none;
+  color: black;
+}
 
 /* AnswersPage */
+.answersContainer{
+  margin: 10px;
+  padding: 10px;
+}
 .ansDiv{
   display: flex;
   flex-direction: column;
@@ -168,6 +186,12 @@ body{
   justify-content: space-between;
   background-color: #85B6E2;
   border-radius: 10px;
+  width: 60%;
+}
+.ansIntro{
+  color: #25226B;
+  font-size: 1rem;
+
 }
 .commentBtn{
   background: #44C2FD;
